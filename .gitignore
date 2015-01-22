@@ -1,0 +1,4 @@
+build/
+dist/
+django_timedtestrunner.egg-info/
+*.pyc
