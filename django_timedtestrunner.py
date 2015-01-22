@@ -28,7 +28,7 @@ class TimedTextTestRunner(TextTestRunner):
     resultclass = TimedTestResult
 
     def run(self, test):
-        result = super(TimedLoggingTestRunner, self).run(test)
+        result = super(TimedTextTestRunner, self).run(test)
 
         num_tests_to_print = 5
 
