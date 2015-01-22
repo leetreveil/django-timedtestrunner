@@ -26,7 +26,7 @@ Install
 
 ::
 
-    pip install -e git://github.com/django-timedtestrunner/django-timedtestrunner.git#egg=django-timedtestrunner
+    pip install -e git://github.com/leetreveil/django-timedtestrunner.git#egg=django-timedtestrunner
 
 Then just set ``TEST_RUNNER`` in ``settings.py`` and you are good to go!
 
