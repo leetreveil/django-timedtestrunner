@@ -11,7 +11,6 @@ class TimedTestRunner(DiscoverRunner):
 
 
 class TimedTestResult(TextTestResult):
-
     test_times = []
 
     def startTest(self, test):
